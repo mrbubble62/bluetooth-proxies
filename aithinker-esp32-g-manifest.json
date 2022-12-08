@@ -1,0 +1,17 @@
+{
+  "name": "Ai-Thinker ESP32-G",
+  "version": "",
+  "home_assistant_domain": "esphome",
+  "new_install_skip_erase": false,
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "esp32g-proxy-esp32/esp32g-proxy-esp32.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
