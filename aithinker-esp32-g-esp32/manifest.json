@@ -1,0 +1,13 @@
+{
+  "chipFamily": "ESP32",
+  "ota": {
+    "path": "aithinker-esp32-g-esp32/aithinker-esp32-g-esp32.ota.bin",
+    "md5": "f5b09e884faff9f22d6c3001b5568606"
+  },
+  "parts": [
+    {
+      "path": "aithinker-esp32-g-esp32/aithinker-esp32-g-esp32.factory.bin",
+      "offset": 0
+    }
+  ]
+}
