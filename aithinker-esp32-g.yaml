@@ -4,6 +4,7 @@ substitutions:
 esphome:
   name: ${name}
   name_add_mac_suffix: true
+  min_version: 2024.6.0
   project:
     name: esphome.bluetooth-proxy
     version: "1.0"
@@ -28,6 +29,8 @@ ethernet:
 api:
 logger:
 ota:
+  - platform: esphome
+    id: ota_esphome
 
 dashboard_import:
   package_import_url: github://esphome/bluetooth-proxies/aithinker-esp32-g.yaml@main
