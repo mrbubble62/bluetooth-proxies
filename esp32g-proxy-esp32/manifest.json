@@ -2,7 +2,7 @@
   "chipFamily": "ESP32",
   "ota": {
     "path": "esp32g-proxy-esp32/esp32g-proxy-esp32.ota.bin",
-    "md5": "fae0c655c5734b11d9c1845e5d7bebbe"
+    "md5": "f6a932e73ebd6bb7766327b431cf291c"
   },
   "parts": [
     {
